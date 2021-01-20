@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dynamic Content</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Type to see changes!</h1>
+      <form>
+        <label> Add Element Type: </label>
+
+        <input type="text" id="type" placeholder="div, h1,li...." />
+        <br /><br />
+        <label for="value"> Add Element Value: </label>
+
+        <input type="text" id="value" placeholder="Enter the text..." />
+        <br /><br />
+        <button type="button" onClick="addItem()">Add</button>
+      </form>
+      <ol id="parent">
+        <li>List Item</li>
+      </ol>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
